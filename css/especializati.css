@@ -1,0 +1,36 @@
+*{margin:0px;padding:0px;}
+body{font-family: "Open Sans";}
+
+/* Header */
+.top{
+    background-color: #21A999;
+    padding: 40px 0px;
+}
+div.logo{max-width: 300px;float: left;}
+img.logo{
+    max-width: 200px;
+}
+
+div.form{}
+form.form{
+    float: right;
+}
+form.form-search input{
+    border: none;
+    padding: 10px 12px;
+    background-color: #3cd2c0;
+    border-top-left-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+    height: 36px;
+    float: left;
+}
+form.form-search button{
+    background: #f7921e;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 6px 20px;
+    border: 2px solid #f7921e;
+    border-top-right-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+}
