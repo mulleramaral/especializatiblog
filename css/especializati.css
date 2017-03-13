@@ -6,13 +6,16 @@ body{font-family: "Open Sans";}
     background-color: #21A999;
     padding: 40px 0px;
 }
-div.logo{max-width: 300px;float: left;}
+div.logo{/* max-width: 300px; *//* float: left; */}
 img.logo{
     max-width: 200px;
 }
 
-div.form{}
+div.form{
+    float: left;
+}
 form.form{
+    /* width: 100%; */
     float: right;
 }
 form.form-search input{
@@ -29,8 +32,20 @@ form.form-search button{
     color: #fff;
     font-weight: bold;
     font-size: 1em;
-    padding: 6px 20px;
+    padding: 6px 12px;
     border: 2px solid #f7921e;
     border-top-right-radius: 6px !important;
     border-bottom-right-radius: 6px !important;
+}
+
+/* Menu */
+.menu{
+    background: #219285;
+}
+.menu a{
+    color: #fff;
+    font-size: 1.2em;
+}
+.menu li a:hover{
+    background: #f7921e;
 }

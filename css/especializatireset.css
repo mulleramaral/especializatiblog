@@ -1,1 +1,7 @@
 form input{border-radius: 0px !important;}
+.navbar-toggle{background: #f7921e;}
+.icon-bar{background: #ffffff}
+.dropdown-menu{background: #21A999;}
+.dropdown-menu>li>a{color: #ffffff; !important;}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: #21a999;}

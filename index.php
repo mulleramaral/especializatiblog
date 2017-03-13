@@ -12,17 +12,21 @@
         <!-- Css Personalizado -->
         <link rel="stylesheet" href="css/especializatireset.css">
 
+        <!-- Css Personalizado Responsive -->
+        <link rel="stylesheet" href="css/especializati-responsive.css">
+
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="imgs/favicon.png">
+        <meta name="viewport" content="initial-scale=1">
     </head>
 <body>
     <header class="top">
         <div class="container">
-            <div class="logo">
+            <div class="logo col-md-6">
                 <img src="imgs/logo-especializati.png" alt="EspecializaTi" class="logo">
             </div>
 
-            <div class="form">
+            <div class="form col-md-6">
                 <form action="" class="form form-search form-inline">
                     <input type="text" name="pesquisar" placeholder="Pesaquisar" class="form-control">
                     <button>
@@ -30,8 +34,40 @@
                     </button>
                 </form>
             </div>
+        </div> <!-- Fim Container -->
+    </header>  <!-- Fim Header TOP -->
+
+    <div class="menu">
+        <div class="container container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">jQuery</a></li>
+                            <li><a href="#">Ajax</a></li>
+                            <li><a href="#">SEO</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Empresa</a></li>
+                    <li><a href="#">Contato</a></li>
+
+                </ul>
+            </div><!--/.nav-collapse -->
         </div>
-    </header>
+    </div>
 
     <!-- Final do Header -->
 
