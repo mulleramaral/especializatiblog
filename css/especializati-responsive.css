@@ -1,10 +1,20 @@
 /*Mobile*/
 @media screen and (max-width: 479px){
     form.form-search input{width: 100px}
+    .img-big h1.text-slide{
+        font-size:0.6em;
+        width:100%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px){
     form.form-search input{width: 180px}
+    .img-big h1.text-slide{
+        font-size:1em;
+        width:100%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 989px){

@@ -17,7 +17,7 @@
 
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="imgs/favicon.png">
-        <meta name="viewport" content="initial-scale=1">
+        <meta name="viewport" content="width=device-width,user-scalable=no;initial-scale=1">
     </head>
 <body>
     <header class="top">
@@ -67,10 +67,42 @@
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
-    </div>
+    </div> <!-- End Menu -->
 
-    <!-- Final do Header -->
+    <div class="container">
+        <div class="slide">
+            <div class="col-md-8">
+                <article class="img-big">
+                    <a href="" title="">
+                        <img src="imgs/img1.jpg" alt="" class="img-slide-big">
+                        <h1 class="text-slide">
+                            Uma nova maneira de trabalhar com HTML5 - Acesse o curso HTML5
+                        </h1>
+                    </a>
+                </article>
+            </div>
 
+            <div class="col-md-4">
+                <article class="img-small col-md-12 col-sm-6 col-xm12">
+                    <a href="" title="">
+                        <img src="imgs/img2.jpg" alt="" class="img-slide-small">
+                        <h1 class="text-slide">
+                            Um nome para o titulo aqui
+                        </h1>
+                    </a>
+                </article>
+
+                <article class="img-small col-md-12 col-sm-6 col-xm12">
+                    <a href="" title="">
+                        <img src="imgs/img3.jpg" alt="" class="img-slide-small">
+                        <h1 class="text-slide">
+                            O título do post pode vir bem aqui...
+                        </h1>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </div><!-- End Container -->
 
     <script src="js/jquery-3.1.1.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->

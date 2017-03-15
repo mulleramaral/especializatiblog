@@ -1,5 +1,7 @@
 *{margin:0px;padding:0px;}
 body{font-family: "Open Sans";}
+img{
+    max-width: 100%;}
 
 /* Header */
 .top{
@@ -48,4 +50,54 @@ form.form-search button{
 }
 .menu li a:hover{
     background: #f7921e;
+    color: #fff;
+}
+
+/* Slide */
+.slide{
+    float: left;
+    width: 100%;
+    padding: 40px 0px;
+}
+.slide img{
+}
+
+img.img-slide-big{
+    position: relative;
+    z-index: 1;
+    padding: 0px;
+    margin: 0px;
+}
+img.img-slide-small{}
+.text-slide{
+    position: absolute;
+    bottom: 0px;
+    margin: 0px;
+    font-size: 2em;
+    background: #000;
+    opacity: 0.6;
+    z-index: 2;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.img-big{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom:16px;
+}
+
+.img-small{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+.img-small h1.text-slide{
+    font-size:1em;
+    width:100%;
+    text-align: center;
 }
