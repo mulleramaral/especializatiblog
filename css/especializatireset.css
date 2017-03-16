@@ -5,3 +5,31 @@ form input{border-radius: 0px !important;}
 .dropdown-menu>li>a{color: #ffffff; !important;}
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
     background-color: #21a999;}
+
+/* Reset Pagination */
+
+.pagination{
+    border-radius:0 !important;
+    border:1px solid #ffffff;
+}
+
+.pagination>li{}
+.pagination>li>a,.pagination>li>span{
+    border-color: #219285 !important;
+    padding: 7px 14px;
+    margin: 6px;
+    background: #219285;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.pagination>li>a:focus,.pagination>li>a:hover,.pagination>li>span:focus,.pagination>li>span:hover{
+    background: #23756b;
+    color: #ffffff;
+}
+
+.pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,
+.pagination>.active>span:focus,.pagination.active>span:hover{
+    background-color: #1b504a;
+    border-color: #1b504a;
+}

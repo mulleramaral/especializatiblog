@@ -70,64 +70,20 @@
     </div> <!-- End Menu -->
 
     <div class="container">
-        <div class="slide">
-            <div class="col-md-8">
-                <article class="img-big">
-                    <a href="" title="">
-                        <img src="imgs/img1.jpg" alt="" class="img-slide-big">
-                        <h1 class="text-slide">
-                            Uma nova maneira de trabalhar com HTML5 - Acesse o curso HTML5
-                        </h1>
-                    </a>
-                </article>
-            </div>
-
-            <div class="col-md-4">
-                <article class="img-small col-md-12 col-sm-6 col-xm12">
-                    <a href="" title="">
-                        <img src="imgs/img2.jpg" alt="" class="img-slide-small">
-                        <h1 class="text-slide">
-                            Um nome para o titulo aqui
-                        </h1>
-                    </a>
-                </article>
-
-                <article class="img-small col-md-12 col-sm-6 col-xm12">
-                    <a href="" title="">
-                        <img src="imgs/img3.jpg" alt="" class="img-slide-small">
-                        <h1 class="text-slide">
-                            O título do post pode vir bem aqui...
-                        </h1>
-                    </a>
-                </article>
-            </div>
-        </div>
-        <!-- Fim do Slide -->
-
-        <section class="content">
-            <div class="col-md-8">
-                <?php for ($i = 1; $i <= 10;$i++){?>
-                <article class="post">
-                    <div class="image-post col-md-4 text-center">
-                        <img src="imgs/img1.jpg" alt="Nome Post" class="img-post">
-                    </div>
-
-                    <div class="description-post col-md-8">
-                        <h2 class="title-post">Titulo do post pode vir bem aqui...</h2>
-
-                        <p class="description-post">
-                            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
-                        </p>
-
-                        <a class="btn-post">Ir <span class="glyphicon glyphicon-chevron-right"></span></a>
-                    </div>
-                </article>
-                <?php }?>
-            </div>
-            <div class="col-md-4"></div>
-        </section>
-
+        <?php
+            if(!$_GET){
+                include 'pages/home.php';
+            } else if(isset($_GET['pg']) && file_exists("pags/{$_GET['pg']}.php")){
+                include "pages/{$_GET['pg']}.php";
+            }else{
+                include "pages/404.php";
+            }
+        ?>
     </div><!-- End Container -->
+
+    <footer class="footer">
+        <p class="footer">Todos os direitos reservados - EspecializaTi <?= date('Y')?></p>
+    </footer>
 
     <script src="js/jquery-3.1.1.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
