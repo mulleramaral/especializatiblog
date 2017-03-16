@@ -102,6 +102,31 @@
                 </article>
             </div>
         </div>
+        <!-- Fim do Slide -->
+
+        <section class="content">
+            <div class="col-md-8">
+                <?php for ($i = 1; $i <= 10;$i++){?>
+                <article class="post">
+                    <div class="image-post col-md-4 text-center">
+                        <img src="imgs/img1.jpg" alt="Nome Post" class="img-post">
+                    </div>
+
+                    <div class="description-post col-md-8">
+                        <h2 class="title-post">Titulo do post pode vir bem aqui...</h2>
+
+                        <p class="description-post">
+                            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+                        </p>
+
+                        <a class="btn-post">Ir <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+                </article>
+                <?php }?>
+            </div>
+            <div class="col-md-4"></div>
+        </section>
+
     </div><!-- End Container -->
 
     <script src="js/jquery-3.1.1.min.js"></script>
