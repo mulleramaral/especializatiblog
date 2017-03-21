@@ -53,16 +53,16 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">PHP</a></li>
-                            <li><a href="#">JavaScript</a></li>
-                            <li><a href="#">jQuery</a></li>
-                            <li><a href="#">Ajax</a></li>
-                            <li><a href="#">SEO</a></li>
+                            <li><a href="?pg=categoria">PHP</a></li>
+                            <li><a href="?pg=categoria">JavaScript</a></li>
+                            <li><a href="?pg=categoria">jQuery</a></li>
+                            <li><a href="?pg=categoria">Ajax</a></li>
+                            <li><a href="?pg=categoria">SEO</a></li>
                         </ul>
                     </li>
 
-                    <li><a href="#">Empresa</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="?pg=empresa">Empresa</a></li>
+                    <li><a href="?pg=contato">Contato</a></li>
 
                 </ul>
             </div><!--/.nav-collapse -->
@@ -73,7 +73,7 @@
         <?php
             if(!$_GET){
                 include 'pages/home.php';
-            } else if(isset($_GET['pg']) && file_exists("pags/{$_GET['pg']}.php")){
+            } else if(isset($_GET['pg']) && file_exists("pages/{$_GET['pg']}.php")){
                 include "pages/{$_GET['pg']}.php";
             }else{
                 include "pages/404.php";
