@@ -282,7 +282,7 @@ h1.title-category{
 }
 .details-post time{}
 
-/* Comentários */
+/* ComentÃ¡rios */
 .comments{
     float: left;
     width: 100%;
@@ -314,4 +314,26 @@ img.user-comment-img{
     background: #eaeaea;
     padding: 14px 0px;
     margin-bottom: 4px;
+}
+
+/* Posts Relacionados */
+.post-relation{
+    background: #fff;
+    float: left;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #e2cfcf;
+    margin-bottom: 24px;
+}
+.post-rel{}
+.title-post-rel{
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 16px 0px;
+}
+
+.title-post-rel-list{
+    font-size:1em;
+    margin:2px 0px;
+    color: #363636;
 }

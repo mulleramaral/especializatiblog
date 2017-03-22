@@ -1,6 +1,6 @@
 <div class="category">
     <section class="content">
-        <div class="col-md-8">
+        <div class="col-md-12">
 
             <article class="post">
                     <div class="image-post text-center">
@@ -99,10 +99,22 @@
                 </div>
             </article>
         </div> <!-- POSTS -->
+    </section>
 
-        <!-- Sidebar -->
-        <div class="col-md-4">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fespecializati&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </div>
+    <section class="post-relation">
+        <h1 class="title-post-rel">Posts Relacionados</h1>
+        <?php for ($i = 1; $i <= 4;$i++){?>
+            <article class="post-rel col-md-3 col-xm-6 col-sm-12">
+                <a href="">
+                    <div class="image-post text-center">
+                        <img src="imgs/img1.jpg" alt="Nome Post" class="img-post">
+                    </div>
+
+                    <div class="description-post ">
+                        <h2 class="title-post-rel-list">Titulo do post pode vir bem aqui...</h2>
+                    </div>
+                </a>
+            </article>
+        <?php }?>
     </section>
 </div>
