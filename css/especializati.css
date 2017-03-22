@@ -235,7 +235,7 @@ img.company{
 .form-contact button:hover{
     opacity: 0.8;
 }
-
+/* Categoria */
 .category{
     float: left;
     width:100%;
@@ -248,7 +248,7 @@ div.title-category{
     border-radius: 4px !important;
     box-shadow: 1px 1px 1px #d2c1c1;
     margin-bottom: 26px;
-    width: 1000%;
+    width: 100%;
 }
 h1.title-category{
     font-size: 1.4em;
@@ -257,4 +257,61 @@ h1.title-category{
     margin: 0px;
     color: #219285;
     padding: 10px 0px;
+}
+
+/* Visualizar Post */
+.description-post-pg p{
+    font-size: 1.2em;
+    margin: 24px 0px;
+}
+.title-post-pg{
+    font-size: 2.6em;
+    float: left;
+    width: 100%;
+    margin: 12px 0px;
+}
+
+.details-post{
+    float: left;
+    width: 100%;
+    margin: 0px !important;
+    color: #ccc;
+}
+.details-post span{
+    font-weight: bold;
+}
+.details-post time{}
+
+/* Comentários */
+.comments{
+    float: left;
+    width: 100%;
+}
+
+.title-comment{
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.form-comment{
+    border-bottom:1px solid #cccccc;
+}
+
+.comment{
+    float: left;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    background: #fbfbfb;
+}
+img.user-comment-img{
+    max-width: 80px;
+}
+.comment-user{}
+.reply-comment{
+    float: left;
+    width: 94%;
+    margin-left: 6%;
+    background: #eaeaea;
+    padding: 14px 0px;
+    margin-bottom: 4px;
 }
